@@ -30,15 +30,7 @@ const screens = {
   },
 };
 
-const HomeStack = createStackNavigator(screens, {
-  defaultNavigationOptions: {
-    headerStyle: {
-      backgroundColor: "#808080",
-      height: 70,
-      // headerTintColor: "#000",
-    },
-  },
-});
+const HomeStack = createStackNavigator(screens);
 
 //we do not need this now as we have implemented drawer
 // export default createAppContainer(HomeStack);

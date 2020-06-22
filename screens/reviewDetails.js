@@ -16,7 +16,7 @@ export default function ReviewDetails({ navigation }) {
       <Card>
         <Text>{navigation.getParam("title")}</Text>
         <Text>{navigation.getParam("body")}</Text>
-        <View styles={styles.rating}>
+        <View style={styles.rating}>
           <Text>GameZone ratings: </Text>
           <Image source={images.ratings[rating]} />
         </View>
